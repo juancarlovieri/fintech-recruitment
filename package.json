@@ -1,0 +1,18 @@
+{
+  "name": "fintech",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "query.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "env-cmd -f ./.env node"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "env-cmd": "^10.1.0",
+    "ethers": "^6.13.2",
+    "solc": "^0.8.26"
+  }
+}
